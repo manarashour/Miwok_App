@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+    <style name="number" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6A1B9A</item>
+        <item name="colorPrimaryDark">#4A148C</item>
+    </style>
+    <style name="color" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#AD1457</item>
+        <item name="colorPrimaryDark">#880E4F</item>
+    </style>
+    <style name="family" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#00838F</item>
+        <item name="colorPrimaryDark">#006064</item>
+    </style>
+    <style name="phrases" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+    </style>
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>
